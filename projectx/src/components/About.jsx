@@ -3,7 +3,7 @@ import '../index.css';
 
 export default function About(){
     return(
-        <div>
+        <div id='about'>
             <div className='intro'>
                 Where Being Creative 
             </div>
@@ -11,12 +11,9 @@ export default function About(){
                 is The X Factor
             </div>
             <div className='intro2'>
-                Use Creative Marketing So That Customers Get
+                Elevate Your Brand With Our Digital Marketing Strategies
             </div>
-            <div className='intro3'>
-                A 360-Degree View of Your Business
-            </div>
-            <a href='/portfolio'>
+            <a href='#portfolio'>
                 <button className='more'>Learn More</button>
             </a>
         </div>

@@ -31,10 +31,9 @@ a:hover{
   justify-content: space-around;
 }
 img {
-  width: 13rem;
-  height: auto;
-  top: -2vh;
-  left: 17vh;
+  width: 18rem;
+  top: -5vh;
+  left: 1.5vw;
   position: fixed;
 }
 .menu{
@@ -44,7 +43,7 @@ img {
   gap: 3rem;
   position: fixed;
   top: 3.2vh;
-  right: 25vh;
+  right: 7vw;
 }
 .nav_toggle div {
   width: 2.7rem;
@@ -61,8 +60,8 @@ img {
   color: whitesmoke;
   font-weight: 500;
   font-family: 'Quicksand';
-  position: fixed;
-  left: 24vh;
+  position: absolute;
+  left: 6.5vw;
   top: 25vh;
   z-index: -1;
 }
@@ -71,8 +70,8 @@ img {
   color: whitesmoke;
   font-weight: 500;
   font-family: 'Quicksand';
-  position: fixed;
-  left: 25vh;
+  position: absolute;
+  left: 7vw;
   top: 36.5vh;
   z-index: -1;
 }
@@ -81,8 +80,8 @@ img {
   color: whitesmoke;
   font-weight: 400;
   font-family: 'Quicksand';
-  position: fixed;
-  left: 25vh;
+  position: absolute;
+  left: 7vw;
   top: 56vh;
   z-index: -1;
 }
@@ -91,8 +90,8 @@ img {
   color: whitesmoke;
   font-weight: 400;
   font-family: 'Quicksand';
-  position: fixed;
-  left: 25vh;
+  position: absolute;
+  left: 7vw;
   top: 61.5vh;
   z-index: -1;
 }
@@ -105,10 +104,207 @@ img {
   font-family: 'Quicksand';
   font-weight: 500;
   font-size: 1.35rem;
-  top: 71vh;
-  left: 25vh;
-  position: fixed;
+  top: 68vh;
+  left: 7vw;
+  position: absolute;
   border-style: none;
+}
+.serv{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 4rem;
+  color: whitesmoke;
+  top: 64vw;
+  left: 7vw;
+  font-weight: 500;
+}
+.serv_span{
+  color: rgb(250, 90, 90);
+  font-style: italic;
+}
+.a_1{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 70vw;
+}
+.a_2{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 72vw;
+}
+.a_3{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 74vw;
+}
+.a_4{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 78vw;
+}
+.a_5{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 80vw;
+}
+.a_6{
+  font-family: 'Quicksand';
+  position: absolute;
+  font-size: 1.7rem;
+  color: whitesmoke;
+  left: 7.5vw;
+  top: 82vw;
+}
+.desc_1{
+  position: absolute;
+  background-color: rgb(27, 28, 30);
+  border: 1px solid rgb(27, 28, 30);
+  color:rgb(136,156,231);
+  font-family: 'Quicksand';
+  font-size: 1.65rem;
+  font-weight: 600; 
+  width: 16vw;
+  height: 25vh;
+  border-radius: 7px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 15vh;
+  top: 100vh;
+  left: 59vw;
+}
+.desc_about_1{
+  font-family: 'Quicksand';
+  color:rgb(138,138,138);
+  position: absolute;
+  font-size: 1.35rem;
+  left: 60vw;
+  top: 120vh;
+}
+.desc_line{
+  background-color: rgb(73, 72, 72);
+  left: 60.3vw;
+  top: 136vh;
+  position: absolute;
+  border-radius: 7px;
+  width: 15.5vw;
+  height: 0.3vw;
+}
+.desc_2{
+  position: absolute;
+  background-color: rgb(27, 28, 30);
+  border: 1px solid rgb(27, 28, 30);
+  color:rgb(136,156,231);
+  font-family: 'Quicksand';
+  font-size: 1.45rem;
+  font-weight: 600; 
+  width: 16vw;
+  height: 25vh;
+  border-radius: 7px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 15vh;
+  top: 100vh;
+  left: 78vw;
+}
+.desc_about_2{
+  font-family: 'Quicksand';
+  color:rgb(138,138,138);
+  position: absolute;
+  font-size: 1.3rem;
+  left: 79vw;
+  top: 125vh;
+}
+.desc_line_1{
+  background-color: rgb(73, 72, 72);
+  left: 79.3vw;
+  top: 138vh;
+  position: absolute;
+  border-radius: 7px;
+  width: 15.5vw;
+  height: 0.3vw;
+}
+.desc_3{
+  position: absolute;
+  background-color: rgb(27, 28, 30);
+  border: 1px solid rgb(27, 28, 30);
+  color:rgb(136,156,231);
+  font-family: 'Quicksand';
+  font-size: 1.65rem;
+  font-weight: 600; 
+  width: 16vw;
+  height: 25vh;
+  border-radius: 7px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 15vh;
+  top: 142vh;
+  left: 59vw;
+}
+.desc_about_3{
+  font-family: 'Quicksand';
+  color:rgb(138,138,138);
+  position: absolute;
+  font-size: 1.35rem;
+  left: 60vw;
+  top: 162vh;
+}
+.desc_line_2{
+  background-color: rgb(73, 72, 72);
+  left: 60.3vw;
+  top: 179vh;
+  position: absolute;
+  border-radius: 7px;
+  width: 15.5vw;
+  height: 0.3vw;
+}
+.desc_4{
+  position: absolute;
+  background-color: rgb(27, 28, 30);
+  border: 1px solid rgb(27, 28, 30);
+  color:rgb(136,156,231);
+  font-family: 'Quicksand';
+  font-size: 1.6rem;
+  font-weight: 600; 
+  width: 16vw;
+  height: 25vh;
+  border-radius: 7px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 15vh;
+  top: 142vh;
+  left: 78vw;
+}
+.desc_about_4{
+  font-family: 'Quicksand';
+  color:rgb(138,138,138);
+  position: absolute;
+  font-size: 1.35rem;
+  left: 79vw;
+  top: 165vh;
+}
+.desc_line_3{
+  background-color: rgb(73, 72, 72);
+  left: 79.3vw;
+  top: 179vh;
+  position: absolute;
+  border-radius: 7px;
+  width: 15.5vw;
+  height: 0.3vw;
 }
 @media screen and (max-width: 967px)and (min-width: 450px){
   .nav_toggle{
