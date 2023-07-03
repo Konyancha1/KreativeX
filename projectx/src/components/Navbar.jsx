@@ -16,22 +16,22 @@ export default function Navbar(){
             </div>
             <ul className={active}>
                 <li className="item">
-                    <a href="#about" className="link">
+                    <a href="#about" className="about_link">
                         About
                     </a>
                 </li>
                 <li className="item1">
-                    <a href="#services" className="link">
+                    <a href="#services" className="services_link">
                         Services
                     </a>
                 </li>
                 <li className="item2">
-                    <a href="#portfolio" className="link">
+                    <a href="#portfolio" className="portfolio_link">
                         Portfolio
                     </a>
                 </li>
                 <li className="item3">
-                    <a href="#contact" className="link">
+                    <a href="#contact" className="contact_link">
                         Contact Us
                     </a>
                 </li>

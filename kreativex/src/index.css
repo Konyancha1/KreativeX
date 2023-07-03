@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/quicksand';
+
+body {
+  background-color: #303030;
+}
